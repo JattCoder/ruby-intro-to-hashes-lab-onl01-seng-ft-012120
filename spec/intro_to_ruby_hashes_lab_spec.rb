@@ -39,7 +39,7 @@ describe "building a multidimensional monopoly hash" do
         # the goal of this part of the lab is to have you build the multidimentional monopoly hash in sequential order
         # hence the solution to this (and the rest of the tests in this lab) builds on top of each other.
 
-        expect(monopoly_with_second_tier.values[0].values[0]).to eq(3)
+        expect(monopoly_with_second_tier.values[0].values[0]).to eq(4)
         expect(monopoly_with_second_tier.values[0].keys[0]).to eq(:pieces)
       end
 
