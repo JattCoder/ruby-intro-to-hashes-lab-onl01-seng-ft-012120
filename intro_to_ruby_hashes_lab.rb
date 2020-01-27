@@ -43,7 +43,6 @@ def monopoly_with_third_tier
 			}
 		}
 	}
-	return monopoly
 end
 
 def monopoly_with_fourth_tier
